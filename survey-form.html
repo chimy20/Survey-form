@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+   <meta charset="UTF-8">
+   <meta name="description" content="Survey form">
+   <meta name="author" content="Chimere Onyegbado">
+   <meta name="keywords" content="html, beginner">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Survey Form</title>
+   <style>
+   h1 {text-align: center;}
+   .bordered {border: 10px solid blue;}
+   .button {height: 20px; width: 500px;}
+   </style>
+  </head>
+  <div class="bordered">
+  <body style="background-color:white;">
+   <h1 style="color:black;" "font-family:'Times New Roman'"><b><i>Penn State University</i></b><b> Off Campus Housing Survey</b>
+   <form>
+    <label for="name"><font size="3">Name:</font></label>
+    <input type="text" id="name" name="Name" />
+    </br>
+    <label for="email"><font size="3">Email:</font></label>
+    <input type="email" id="email" name="email" />
+    </br>
+    <input type="text" class="button" value="What classification will you be in Fall 2020?" readonly />
+    </br>
+    <input name="btn" type="radio" /><input type="text" value="Freshmen" />
+    </br>
+    <input name="btn" type="radio" /><input type="text" value="Sophomore" />
+    </br>
+    <input name="btn" type="radio" /><input type="text" value="Junior" />
+    </br>
+    <input name="btn" type="radio" /><input type="text" value="Senior" />
+    </br>
+    <input name="btn" type="radio" /><input type="text" value="Grad Student" />
+    </br>
+    <input name="btn" type="radio" /><input type="text" value="N/A - Graduating" />
+    </br>
+    <input type="text" class="button" value="Have you already found housing for Fall 2020?" readonly />
+    </br>
+    <input name="btn" type="radio" /><input type="text" value="Yes, Living Off-Campus" />
+    </br>
+    <input name="btn" type="radio" /><input type="text" value="Yes, Living On-Campus" />
+    </br>
+    <input name="btn" type="radio" /><input type="text" value="No, Still Looking" />
+    </br>
+    <input name="btn" type="radio" /><input type="text" value="Maybe" />
+    </br>
+    <input name="btn" type="radio" /><input type="text" value="N/A-Graduating" />
+    </br>
+    <input type="text" class="button" value="What matters to you when looking for housing off-campus? (Select all that apply)" readonly />
+    </br>
+    <input type="checkbox" id="price" name="price" value="Best Price">
+    <label for="price"><font size="3">Best Price</font></label>
+    </br>
+    <input type="checkbox" id="location" name="location" value="Location to Campus">
+    <label for="location"><font size="3">Location to Campus</font></label>
+    </br>
+    <input type="checkbox" id="bed" name="bed" value="Private Bed/Bathroom">
+    <label for="bed"><font size="3">Private Bed/Bathroom</font></label>
+    </br>
+    <input type="checkbox" id="unit" name="unit" value="Upgraded Unit Interiors">
+    <label for="unit"><font size="3">Upgraded Unit Interiors</font></label>
+    </br>
+    <input type="checkbox" id="pool" name="pool" value="Amenities">
+    <label for="pool"><font size="3">Amenities(Pool, Gym, Study Rooms, etc.)</font></label>
+    </br>
+    <input type="checkbox" id="other" name="other" value="Other">
+    <label for="other"><font size="3">Other (Please specify) </font></label><input type="text" id="name" name="Name" />
+    </br>
+    <input type="text" class="button" value="What size apartment interests you?" readonly />
+    </br>
+    <input name="btn" type="radio" /><input type="text" value="1 bed x 1 bath" />
+    </br>
+    <input name="btn" type="radio" /><input type="text" value="2 bed x 2 bath" />
+    </br>
+    <input name="btn" type="radio" /><input type="text" value="3 bed x 3 bath" />
+    </br>
+    <input name="btn" type="radio" /><input type="text" value="4 bed x 4 bath" />
+    </br>
+    <input type="submit" value="Submit">
+   </form>
+  </body>
+  </div>
+ </html>
+   
